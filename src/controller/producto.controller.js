@@ -7,7 +7,7 @@ const index = (req, res) => {
        console.log('Constructed URL:', url);
        fetch(url)
            .then(response => response.json())
-           .then(data => res.json(data))
+           .then(data => res.render('productos', { productos: data }))
            .catch(error => {
           console.error('Error fetching products:', error);
           res.status(500).json({ error: 'Internal Server Error' });

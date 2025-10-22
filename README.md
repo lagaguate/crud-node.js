@@ -3,9 +3,10 @@
 ### Ejecutar proyecto
 ```npm index.js```
 
-### Instalara varibles de entorno
+### Instalar varibles de entorno
 ``` npm i dotenv ```
-
+### Instalar EJS, motor de vitas
+``` npm i ejs ```
 ### Instalar todas las dependencias
 ``` shell
  npm i 

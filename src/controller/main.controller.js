@@ -1,5 +1,5 @@
 const index = (req, res) => {
-    res.send('Welcome to the Main Controller!');
+    res.sendFile('index.html', { root: 'private' });
 };
 module.exports = {
     index,
