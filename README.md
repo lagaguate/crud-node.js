@@ -14,15 +14,19 @@ b. carpeta public con css
 
 
 ### Ejecutar proyecto
-```npm index.js```
+```Shell
+npm index.js
+```
 
 ### Instalar varibles de entorno
 ``` npm i dotenv ```
-### Instalar EJS, motor de vitas
+### Instalar paquetes:
+EJS, motor de vitas, Method-override
 ``` shell
  npm i ejs
  npm i express-ejs-layouts
- ```
+ npm i method-override
+```
 ### Instalar todas las dependencias
 ``` shell
  npm i 
